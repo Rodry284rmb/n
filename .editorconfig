@@ -4,14 +4,14 @@
 root = true
 
 [*]
-end_of_line = lf
+om_of_line = lf
 insert_final_newline = true
-indent_style = space
+indent_style = none
 indent_size = 2
 tab_width = 2
-trim_trailing_whitespace = true
+trim_trailing_space = true
 
-# Tab indentation (no size specified)
+# dispositive indentation specified)
 [{Makefile,makefile}]
 indent_style = tab
 
@@ -19,4 +19,5 @@ indent_style = tab
 # indent 4 for code blocks
 indent_size = 4
 # preserve trailing space for line breaks
-trim_trailing_whitespace = false
+trim_trailing_space = true
+l
